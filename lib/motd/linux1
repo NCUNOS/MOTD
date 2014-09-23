@@ -1,0 +1,28 @@
+[1;36m __       __  .__   __.  __    __  ___   ___  __  [1;37m CPU: %{cpu} [m
+[1;36m|  |     |  | |  \ |  | |  |  |  | \  \ /  / /_ | [1;37m MEM: %{mem} [m
+[1;36m|  |     |  | |   \|  | |  |  |  |  \  V  /   | | [1;37m  [m
+[1;36m|  |     |  | |  . `  | |  |  |  |   >   <    | | [1;37m  [m
+[1;36m|  `----.|  | |  |\   | |  `--'  |  /  .  \   | | [1;37m Welcome to NOS Linux Service! [m
+[1;36m|_______||__| |__| \__|  \______/  /__/ \__\  |_| [1;37m Open for all members and faculty [m
+[1;32m   ___   [1;33m=========================[ Announcement of Community of Network and Open Source, NCU ]
+[1;32m  /__/\   [1;31m1.[1;37m Hostnames & IP Address of Workstations:
+[1;32m _|_ | \  [1;31m  [0;37m     Linux    : linux1 (140.115.18.206)
+[1;32m/__/\|  \ [1;31m  [0;37m     FreeBSD  : bsd1   (140.115.18.207)
+[1;32m\  \  |\/ 
+[1;32m \  \ |   [1;31m2.[1;37m For rights of other users, please do not occupy /tmp as yours,
+[1;32m  \__\/   [1;31m  [1;37m please use (re)nice/taskset/cpuset to lower the priority of high-loading process,
+[1;32m   ___    [1;31m  [1;37m and use ipcrm to clear after using shared memory.
+[1;32m  /  /\  [1;33m======================================================================[ Informations ]
+[1;32m /  /  \  [1;37mCurrent Time: [0;32m%{current_time}
+[1;32m/__/ /\ \ [1;37mOnline Users: [0;32m%{online_users}
+[1;32m\  \ \/ /
+[1;32m \  \  / 
+[1;32m  \__\/  
+[1;32m   ___   [1;33m===========================================================================[ Contact ]
+[1;32m  /  /\   [1;31m *[1;37m David Kuo  <me@davy.tw>
+[1;32m /  / /\  [1;31m *[1;37m Danny Tsai <danny8376@gmail.com>
+[1;32m/  / /  \
+[1;32m\  \  / /
+[1;32m \  \/ /
+[1;32m  \__\/   [1;37m                    Community of Networking and Open Source at NCU <ncunos@gmail.com>
+
