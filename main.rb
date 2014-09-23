@@ -31,6 +31,10 @@ module Info
 			'unknown'
 		end
 	end
+
+	def self.online_count
+		`users | wc -w`.strip
+	end
 end
 
 motd = File.open File.expand_path(File.join('../lib/motd', `hostname`.strip), __FILE__), 'r' do |f|
@@ -41,5 +45,5 @@ puts motd % {
 	:cpu => Info.cpu,
 	:mem => Info.memory,
 	:current_time => Time.now.asctime,
-	:online_users => 0
+	:online_users => Info.online_count
 }
